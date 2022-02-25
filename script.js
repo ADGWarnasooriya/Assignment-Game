@@ -307,14 +307,19 @@ function vikingDown() {
         viking.style.backgroundPositionX = vikingPositionX + "px";
 
     }
+    setTimeout(function() {
+            viking.remove();
+            troll.remove();
+            trollHealth.remove();
+            trollHealth1.remove();
+            vikingHealth.remove();
+            vikingHealth1.remove();
+            window.location = "index2.html";
+        }
 
-    viking.remove();
-    troll.remove();
-    trollHealth.remove();
-    trollHealth1.remove();
-    vikingHealth.remove();
-    vikingHealth1.remove();
-    window.location = "index2.html";
+        , 1000)
+
+
 }
 
 function trollDown() {
@@ -333,13 +338,18 @@ function trollDown() {
         troll.style.backgroundPositionX = trollPositionX + "px";
 
     }
+    setTimeout(function() {
+            viking.remove();
+            troll.remove();
+            trollHealth.remove();
+            trollHealth1.remove();
+            vikingHealth.remove();
+            vikingHealth1.remove();
+            window.location = "index2.html";
+        }
 
-    viking.remove();
-    troll.remove();
-    trollHealth.remove();
-    trollHealth1.remove();
-    vikingHealth.remove();
-    vikingHealth1.remove();
-    window.location = "index2.html";
+        , 1000)
+
+
 
 }

@@ -85,7 +85,7 @@
             }
         }
 
-        function keypress(event) {
+        function keypress3(event) {
             var key = event.which;
             //alert(key);
             if (key == 68) {
@@ -320,13 +320,17 @@
 
             }
 
-            viking.remove();
-            troll.remove();
-            trollHealth.remove();
-            trollHealth1.remove();
-            vikingHealth.remove();
-            vikingHealth1.remove();
-            window.location = "credits.html";
+            setTimeout(function() {
+                    viking.remove();
+                    troll.remove();
+                    trollHealth.remove();
+                    trollHealth1.remove();
+                    vikingHealth.remove();
+                    vikingHealth1.remove();
+                    window.location = "credits.html";
+                }
+
+                , 1000)
         }
 
         function trollDown() {
@@ -346,13 +350,17 @@
 
             }
 
-            viking.remove();
-            troll.remove();
-            trollHealth.remove();
-            trollHealth1.remove();
-            vikingHealth.remove();
-            vikingHealth1.remove();
-            window.location = "credits.html";
+            setTimeout(function() {
+                    viking.remove();
+                    troll.remove();
+                    trollHealth.remove();
+                    trollHealth1.remove();
+                    vikingHealth.remove();
+                    vikingHealth1.remove();
+                    window.location = "credits.html";
+                }
+
+                , 1000)
 
         }
     </script>

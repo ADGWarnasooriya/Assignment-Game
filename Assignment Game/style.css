@@ -54,6 +54,10 @@ body {
     height: 50px;
 }
 
+.sound:hover {
+    background-color: aliceblue;
+}
+
 .credits {
     position: absolute;
     margin-top: 200px;

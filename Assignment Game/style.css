@@ -67,6 +67,10 @@ body {
     cursor: pointer;
 }
 
+.credits:hover {
+    background-color: aliceblue;
+}
+
 .instructions {
     position: absolute;
     margin-top: 200px;

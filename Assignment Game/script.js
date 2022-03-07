@@ -2,6 +2,11 @@ function credits() {
     window.location = "credits.html";
 
 }
+
+function instructions() {
+    window.location = "instructions.html";
+}
+
 var gameSound = new Audio("bk1.mp3");
 
 function gameSoundon() {

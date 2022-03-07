@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(9, 14, 58);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .h1 {
+            font-family: "Magneto";
+            display: flex;
+            position: absolute;
+            margin-top: 100vh;
+            color: whitesmoke;
+        }
+        
+        .btn {
+            width: 200px;
+            height: 100px;
+            font-size: 25px;
+            padding-top: 20px;
+            padding-left: 14px;
+            display: flex;
+            font-family: "Goudy Stout";
+            margin-top: 150vh;
+            position: absolute;
+            background-color: rgb(150, 8, 51, 0.7);
+            border: none;
+            border-radius: 10px;
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgba(70, 5, 24, 0.7);
+        }
+    </style>
+
+    <title>Credits</title>
+
+</head>
+
+
+<body onkeyup="keypresscredits(event);">
+
+
+    <h1 class="h1">Instructions</h1>
+    <button onclick="mainmenu();" class="btn">Main Menu</button>
+
+    <script>
+        var gameSound = new Audio("bk4.mp3");
+        var gameSoundStatus = false;
+
+        function keypresscredits(event) {
+            key = event.which;
+            if (key == 77) {
+                if (gameSoundStatus == false) {
+                    gameSound.play();
+                    gameSoundStatus = true;
+                } else if (gameSoundStatus == true) {
+                    gameSound.pause();
+                    gameSoundStatus = false;
+                }
+
+            }
+        }
+
+        function mainmenu() {
+            window.location = "index.html";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,5 @@
 function credits() {
     window.location = "credits.html";
-
 }
 
 function instructions() {

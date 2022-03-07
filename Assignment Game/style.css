@@ -15,11 +15,11 @@ body {
 }
 
 .name {
-    color: rgba(49, 0, 0, 0.5);
-    font-size: 90px;
+    color: rgb(0, 0, 0);
+    font-size: 150px;
     align-self: flex-start;
     position: absolute;
-    font-family: "cooper";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-text-stroke: 2px rgba(243, 243, 243, 0.5);
 }
 

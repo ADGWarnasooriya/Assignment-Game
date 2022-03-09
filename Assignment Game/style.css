@@ -121,8 +121,8 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: black;
-    width: 400px;
-    height: 30px;
+    width: 30px;
+    height: 400px;
     margin-top: 50px;
     margin-left: 80px;
     background-color: rgb(255, 230, 0);
@@ -145,8 +145,8 @@ body {
     border-radius: 10px;
     border: solid;
     border-color: black;
-    width: 400px;
-    height: 30px;
+    width: 30px;
+    height: 400px;
     margin-top: 50px;
     margin-left: 80px;
     background-color: rgba(255, 255, 255, 0.2);

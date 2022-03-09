@@ -305,7 +305,7 @@ var vikingHealthHeight = 400;
 
 function vikingDeadAnimation() {
     vikingHealthHeight = vikingHealthHeight - 5;
-    vikingHealthHeight = vikingHealthHeight + "px";
+    vikingHealth.style.height = vikingHealthHeight + "px";
     if (vikingHealthHeight == 0) {
         vikingDown();
     }

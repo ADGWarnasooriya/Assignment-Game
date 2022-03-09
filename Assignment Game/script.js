@@ -301,12 +301,12 @@ function trollDeadAnimation() {
     }
 
 }
-var vikingHealthWidth = 400;
+var vikingHealthHeight = 400;
 
 function vikingDeadAnimation() {
-    vikingHealthWidth = vikingHealthWidth - 5;
-    vikingHealth.style.width = vikingHealthWidth + "px";
-    if (vikingHealthWidth == 0) {
+    vikingHealthHeight = vikingHealthHeight - 5;
+    vikingHealthHeight = vikingHealthHeight + "px";
+    if (vikingHealthHeight == 0) {
         vikingDown();
     }
 }

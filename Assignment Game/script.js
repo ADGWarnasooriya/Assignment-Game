@@ -295,8 +295,8 @@ var trollHealthHeight = 400;
 
 function trollDeadAnimation() {
     trollHealthHeight = trollHealthHeight - 5;
-    trollHealth.style.height = trollHealthheight + "px";
-    if (trollHealthheight == 0) {
+    trollHealth.style.height = trollHealthHeight + "px";
+    if (trollHealthHeight == 0) {
         trollDown();
     }
 

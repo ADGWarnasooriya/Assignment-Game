@@ -291,7 +291,7 @@ function trollAttackAnimation() {
     trollWalkStatus = false;
 
 }
-var trollHealthWidth = 400;
+var trollHealthHeight = 400;
 
 function trollDeadAnimation() {
     trollHealthWidth = trollHealthWidth - 5;
